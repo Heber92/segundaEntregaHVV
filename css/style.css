@@ -1,0 +1,30 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    color: brown;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    display: flex;
+    flex-direction: column;
+}
+.orden{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 32px;
+}
+.ordencaf{
+    background: rgb(148, 74, 8);
+    color: antiquewhite;
+    border-radius: 50px;
+    transition: transfom 0.3s ease;
+}
